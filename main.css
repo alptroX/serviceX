@@ -1,0 +1,1050 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(200,200,250);
+	font-family: Tahoma;
+	margin: 0px;
+}
+
+
+@media only screen and (max-width: 500px) {
+	
+	/*  Article
+		Range: i*
+		(*Value)
+	*/
+	article.i0 {
+		display: none;
+	}
+	article.i1{
+		width:auto;
+	}
+	article.i2{
+		width:auto;
+		margin:0%
+	}
+	section.j0{
+		flex-direction: column;
+	}
+}
+/*Nav
+
+	Intergated: Lockstyle
+
+*/
+nav.a0{
+	width:60px;
+	height:80px;
+}
+nav.a1{
+	flex-direction: column;
+}
+nav.a2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*Section 
+
+	Intergated: Lockstyle
+
+*/
+
+section.a1 {
+	display: -webkit-flex;
+	background-color: rgb(195,195,195);
+	padding-top:50px;
+}
+/*Paragraph Text*/
+
+p.a0{
+	font-size:8px;
+	text-align:center;
+}
+p.a2{
+	margin-top:3px;
+	font-size:12px;
+}
+p.a3{
+	margin-top:3px;
+	margin-right:auto;
+	padding-right: 10px;
+	font-size:14px;
+}
+p.a4{
+	margin-top:3px;
+	font-size:11px;
+	word-wrap: break-word;
+}
+
+p.b1{
+	font-size:12px;
+	text-align:center;
+	margin-top:3px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*Image
+*/
+img.a1{
+	display:block;
+	object-fit:scale-down;
+	height:50px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+img.a2{
+	height:50px;
+	width:50px;
+	object-fit:scale-down;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+/*	Section
+*/
+/*	Top Bar
+*/
+section.a000{
+	display: -webkit-flex;
+	flex-direction: row;
+	background-color: rgb(195,195,195);
+	height: 60px;
+	width: 100%;
+	padding-top:25px;
+}
+/*	Bottom Bar
+*/
+section.a002{
+	display:-webkit-flex;
+	flex-direction: row;
+}
+/*	
+*/
+section.m000{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+
+/*Article
+*/
+/*
+article.q4{
+	grid-area: 1 / 1 / span 1/ span 1;
+	background-color: FloralWhite;
+}
+*/
+nav.a2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*	Link Reference (a tag)
+*/
+/*	For Left-side Text
+*/
+a.a000{
+	font-size: 12px;
+	text-decoration:none;
+}
+/*	Common sub-Link
+*/
+a.a001{
+	text-decoration:none;
+}
+a.a002{
+	font-size: 14.5px;
+	margin-top: 1.5px;
+	margin-bottom: 1.5px;
+	word-wrap: break-word;
+	text-decoration:none;
+}
+
+a.a010{
+		  font-size: 14px;
+		 margin-top: 1.5px;
+	  margin-bottom: 1.5px;
+		margin-left: 0px;
+	   margin-right: auto;
+		  word-wrap: break-word;
+	text-decoration: none;
+}
+
+/*	Article
+*/
+/*
+*/
+article.s0{
+	display: grid;
+	grid-template-columns: 33% 34% 33%;
+	background-color: FloralWhite;
+}
+/*	Block Type: A0
+*/
+article.a000{
+	padding: 5px;
+}
+/*	Center Layout
+*/
+article.a001{
+	grid-area: 1 / 2 / span 1/ span 1;
+	background-color: FloralWhite;
+	padding: 20px;
+}
+/*	Left-side Layout
+*/
+article.a002{
+	grid-area: 1 / 1 / span 1/ span 1;
+	background-color: rgb(195,195,195);
+	margin-top:5px;
+	margin-left:10px;
+}
+/*	Right-side Layout
+*/
+article.a003{
+	grid-area: 1 / 3 / span 1/ span 1;
+	background-color: rgb(195,195,195);
+	margin: 5px;
+}
+/*	Sub-Block Layout
+*/
+article.c000{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*	Nav Layout
+
+	m Series: Micro-Block
+*/
+/*	Nav Block Type: A0
+*/
+nav.a000{
+	display: grid;
+	grid-template-columns: 33% 34% 33%;
+	background-color: FloralWhite;
+}
+/*	Nav Block Type: A1
+*/
+nav.a001{
+	display: grid;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	background-color: FloralWhite;
+}
+/*	Nav Block Type: A2
+*/
+nav.a002{
+	display: grid;
+	grid-template-columns: 15% 85%;
+	background-color: FloralWhite;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+/* Nav Block Type: A10
+*/
+nav.a010{
+				  display: grid;
+	grid-template-columns: 25% 75%;
+		 background-color: FloralWhite;
+			   margin-top: 2px;
+			margin-bottom: 2px;
+}
+
+/*	Nav Block Type: M0
+*/
+nav.m000{
+	display:block;
+	padding: 5px;
+}
+
+
+/*	Heading
+	hX ( h1 | h2 | h3 | h4 | h5 | h6 )
+	
+	Function | DIV:
+	a0,all hX - No margin Allowed 
+*/
+/*	Heading 3 -
+*/
+h3.a001{
+	display:block;
+	margin-top:0px;
+}
+h3.a002{
+	display:block;
+	margin-top:8px;
+	margin-bottom:2px;
+}
+/*	Heading 4 - 
+*/
+h4.a001{
+	display:block;
+	margin-top:0px;
+	margin-bottom:4px;
+}
+h4.a010{
+	      display: block;
+	   margin-top: 8px;
+	margin-bottom: 2px;
+		word-wrap: break-word;
+}
+
+
+/*	Text (Paragraph|Other)
+*/
+/*	14.5px Text Type A
+*/
+p.a001{
+	font-size:14.5px;
+	margin-top:3px;
+	word-wrap:break-word;
+}
+/*	11.5px Text Type A
+*/
+p.a002{
+	font-size:	11.5px;
+	margin-top:	3px;
+	word-wrap:	break-word;
+}
+/*	14px Text Type A
+*/
+p.a003{
+	font-size:	14px;
+	margin-top:	3px;
+	word-wrap:	break-word;
+}
+/*	14px Text Type A
+*/
+p.a004{
+	font-size:	12px;
+	margin-top:	3px;
+	margin-bottom: 3px;
+	word-wrap:	break-word;
+}
+/*	12px Text Type B
+*/
+p.b000{
+	font-size:	12px;
+	margin-top:	3px;
+	word-wrap: 	break-word;
+	text-align:	center;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*	12px Text Type C
+*/
+p.b001{
+	font-size:	12px;
+	margin-top:	3px;
+	word-wrap:	break-word;
+	text-align:	center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+/*	12px Text Type D
+*/
+p.b002{
+	font-size:	12px;
+	margin-top:	3px;
+	word-wrap: 	break-word;
+	text-align:	left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*	8px Text Type A
+*/
+p.c000{
+	font-size:8px;
+	margin-top: 3px;
+	word-wrap: break-word;
+}
+/*	8px Text Type B (Center - 50px)
+*/
+p.c001{
+	font-size: 8px;
+	margin-top:3px;
+	margin-bottom:0px;
+	margin-left: auto;
+	margin-right:auto;
+	word-wrap: break-word;
+	text-align:center;
+	width:50px;
+}
+
+/*	14.5px Text Type A
+*/
+p.d000{
+	font-size: 14.5px;
+	margin-top: 1.5px;
+	margin-bottom: 1.5px;
+	word-wrap: break-word;
+}
+/*
+*/
+p.d001{
+	font-size: 12px;
+	margin-top:	1.5px;
+	margin-bottom: 1.5px;
+	word-wrap: break-word;
+}
+
+/*	Text (All)
+*/
+/*  Top text title
+*/
+text.a000{
+	font-size:	20px;
+	font-weight:bold;
+	margin-top:	20px;
+	margin-left:5px;
+}
+/*	Top text link text
+*/
+text.a001{
+	font-size:	11px;
+	font-weight:bold;
+	margin-left:5px;
+}
+
+/*	Image
+*/
+/*	50x50 Image
+*/
+img.a000{
+	height: 50px;
+	width: 50px;
+	object-fit: scale-down;
+}
+/*	50x100 Image
+*/
+img.a001{
+	height: 50px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	object-fit: scale-down;
+	display: block;
+}
+
+a.m00{
+	display:block;
+	margin-right: 5px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	margin-left:auto;
+	font-size:13px;
+	text-decoration:none;
+	text-align:right;
+}
+
+
+p.m00{
+	display:block;
+	margin-top:2.5px;
+	margin-bottom:2.5px;
+	font-size:13px;
+	word-wrap:break-word;
+}
+
+/*	Section: A Series
+*/
+section.a00{
+	background-color: rgb(195,195,195);
+			   width: 100%;
+			position: fixed;
+			 display: -webkit-flex;
+	  flex-direction: row;
+}
+section.a01{
+			 width: 100%;
+		   display: -webkit-flex;
+	flex-direction: row;
+	   padding-top: 30px;
+	  padding-left: 5px;
+	 padding-right: 5px;
+	padding-bottom: 5px;
+}
+/*	Section: B Series
+*/
+section.b00{
+	display: grid;
+	grid-template-columns: 12% 76% 12%;
+}
+
+/*	Section: C Series (micro-grid)
+*/
+section.c00{
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: rgb(100,195,195);
+}
+section.c01{
+	display: grid;
+	grid-template-columns: 15% 75%;
+}
+section.c02{
+	display: grid;
+	grid-template-columns: 90% 10%;
+}
+
+/*	Article: A Series
+*/
+article.a00{
+		   padding: 0.5px;
+		   display: -webkit-flex;
+	flex-direction: row;
+	   margin-left: auto;
+	  margin-right: auto;
+}
+article.a01{
+		   padding: 0.5px;
+		   display: -webkit-flex;
+	flex-direction: row;
+	   margin-left: 5px;
+	  margin-right: auto;
+}
+
+/*	Article: B Series
+*/
+article.b00{
+		display: block;
+	margin-left: 5px;
+}
+article.b01{
+	display: block;
+}
+
+
+/*	NavBar: A Series
+*/
+nav.a00{
+	display: block;
+	padding-left: 5px;
+	margin: auto;
+}
+nav.a01{
+	display: block;
+}
+
+/*	NavBar: B Series (Structure)
+*/
+nav.b00{
+	display: grid;
+	grid-template-columns: 15% 85%;
+}
+
+/*	NavBar: C Series (mirco-Grid Structure)
+*/
+nav.c00{
+	display: -webkit-flex;
+	flex-direction: column;
+	margin: auto auto auto 8px;
+}
+nav.c01{ display: -webkit-flex; flex-direction: column; margin: auto 0px  auto auto; 	}
+
+nav.c11{
+		   display: -webkit-flex;
+	flex-direction: row;
+	   margin-left: auto;
+	  margin-right: 0px;
+}
+
+
+/*	Image: A Series (Square)
+*/
+img.a00{
+	   display: block;
+		height: 24px;
+		 width: 24px;
+	object-fit: scale-down;
+}
+img.a01{
+	   display: block;
+		height: 48px;
+		 width: 48px;
+	object-fit: scale-down;
+}
+
+/*	Image: B Series (Square) with margin
+*/
+img.b00{
+	   display: block;
+		height: 24px;
+		 width: 24px;
+	object-fit: scale-down;
+		margin: 2px;
+}
+img.b01{
+	   display: block;
+		height: 48px;
+		 width: 48px;
+	object-fit: scale-down;
+		margin: 2px;
+}
+
+
+/*	Text: A Series
+*/
+text.a00{
+		 display: block;
+	padding-left: 5px;
+	 font-family: Eurostile;
+	  text-align: center;
+}
+
+/*	Paragraph: A Series 
+*/
+p.a00{	
+	font-size: 8px;
+	word-wrap: break-word;
+	   margin: 0px;
+}
+p.a01{	
+	font-size: 12px;
+	word-wrap: break-word;
+	   margin: 0px;
+}
+
+/*	Paragraph: B Series
+*/
+p.b00{
+		font-size: 12px;
+		word-wrap: break-word;
+	   margin-top: auto;
+	margin-bottom: auto;
+}
+p.b01{
+		font-size: 12px;
+		word-wrap: break-word;
+	   margin-top: 0px;
+	margin-bottom: 5px;
+}
+p.b02{
+		font-size: 12px;
+		word-wrap: break-word;
+	   margin-top: 0px;
+	margin-bottom: 10px;
+}
+p.b10{
+		font-size: 12px;
+		word-wrap: break-word;
+	   margin-top: 0px;
+	margin-bottom: 0px;
+}
+p.b0a{ /*	Block Series: b?a */
+		  display: block;
+		font-size: 12px;
+		word-wrap: break-word;
+	   margin-top: 4px;
+	margin-bottom: 4px;
+}
+p.b0b{ /*	Block Series: b?b */
+		  display: block;
+		font-size: 14px;
+		word-wrap: break-word;
+	   margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+/*	Paragraph: C Series
+*/
+p.c01{
+		font-size: 14px;
+		word-wrap: break-word;
+	   margin-top: 0px;
+	margin-bottom: 5px;
+}
+p.c02{
+		font-size: 14px;
+		word-wrap: break-word;
+	   margin-top: 0px;
+	margin-bottom: 10px;
+}
+p.c10{
+		font-size: 14px;
+		word-wrap: break-word;
+	   margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/*	Paragraph: D Series
+*/
+p.d01{
+		font-size: 16px;
+		word-wrap: break-word;
+	   margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+/*	Heading 3: A Series
+*/
+h3.a01{
+		  display: block;
+		word-wrap: break-word;
+	   margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* Heading 4: A Series
+*/
+h4.a01{
+		  display: block;
+		word-wrap: break-word;
+	   margin-top: 5px;
+	margin-bottom: 5px;
+}
+h4.b01{
+		  display: block;
+		word-wrap: break-word;
+	   margin-top: 5px;
+	margin-bottom: 5px;
+	  margin-left: 5px;
+}
+
+/*	Heading 5: A Series
+*/
+h5.a01{
+		  display: block;
+		word-wrap: break-word;
+	   margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*	a(link): A Series
+*/
+a.a00{
+		  font-size: 12px;
+	text-decoration: none;
+}
+
+/*	a(link): B Series
+*/
+a.b01{
+		  font-size: 14px;
+		  word-wrap: break-word;
+	text-decoration: none;
+}
+a.b0a{	/*	Block Series: b?a */
+			display: block;
+		  font-size: 14px;
+		  word-wrap: break-word;
+	text-decoration: none;
+		margin-left: 0px;
+	   margin-right: auto;
+		 margin-top: auto;
+	  margin-bottom: auto;
+}
+/*	<Section>: Top Bar	*/
+section.tB0{ display: -webkit-flex; flex-direction: row; width: 100%; position:fixed; background-color: rgb(195,195,195); }
+
+/*	<Article>: Main Section	*/
+section.nXg0{ display: grid; grid-template-columns: 10% 76% 14%; }
+
+/*	<Article>: Top Bar Layout	*/
+article.tL0{ display: -webkit-flex; flex-direction: row; margin:  0px auto  0px auto; padding: 0.5px 0.5px 0.5px 0.5px }
+
+/*	<Article>: Main Layout	*/
+article.mL0{ grid-area: 1 / 2 / span 1 / span 1; margin:  0px  0px  0px  0px; padding: 20px 20px 20px 20px; border-radius: 15px; background-color: FloralWhite; }
+article.mL1{ grid-area: 1 / 1 / span 1 / span 1; margin:  0px  5px  0px  5px; padding: 10px 10px 10px 10px; border-radius: 10px; background-color: transparent; }
+article.mL2{ grid-area: 1 / 3 / span 1 / span 1; margin:  0px  5px  0px  5px; padding:  0px  0px  0px  0px; border-radius:  0px; background-color: transparent; }
+
+
+article.g02a{ display: grid; background-color: transparent; grid-template-columns: 25% 25% 25% 25%;}
+
+/*	<nav>:  X Slots for Block	*/
+nav.g05a{ display: grid; background-color: transparent; grid-template-columns: 20% 20% 20% 20% 20%;}
+
+/*	<nav>: 10 Slots	for Block	*/
+nav.g08a{ display: grid; background-color: transparent; grid-template-columns: 12% 13% 12% 13% 12% 13% 12% 13%;}
+nav.g10a{ display: grid; background-color: transparent; grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
+
+
+
+/*	<nav>: Block Design	*/
+nav.bK0{ display: block; margin: 0px 0px 0px 0px; padding: 5px 5px 5px 5px; }
+
+nav.bKa0{ display: block; margin: auto 0px auto 0px; padding: 5px 5px 5px 5px; }
+
+nav.bK1s{ display: block; margin: 0px 0px 0px 0px; padding: 5px 2px 5px 2px; }
+
+nav.bKC0{ display: block; margin: 4px 4px 4px 4px; padding: 0px 0px 0px 0px; border-radius: 10px; background-color: rgb(100,255,100);}
+
+nav.bKA0{ display: block; margin: 4px 4px 4px 4px; padding: 0px 0px 0px 0px; border-radius: 10px; background-color: rgb(204,255,153);}
+
+/*	<nav>: Navigation specially Grid Design	*/
+nav.nSf{ display: grid; grid-template-columns:  2%	98%; margin: 0px; }
+nav.nSc{ display: grid; grid-template-columns:  2%	98%; margin: 0px; }
+nav.nSb{ display: grid; grid-template-columns:  2%	98%; margin: 0px; }
+
+/*	<a>: Default Standard	*/
+a.nX{text-decoration:none; color: black;}
+
+
+/*	Type: Block 	<text> Left(Indent-1) Control: Tahoma (Normal) */
+text.lT0{ display: block; font-size: 10px; font-family: Tahoma; font-weight: Normal; padding:  0px  5px  0px  5px; margin:  0px  0px  0px  0px; text-align: left}
+text.lT1{ display: block; font-size: 12px; font-family: Tahoma; font-weight: Normal; padding:  0px  5px  0px  5px; margin:  0px  0px  0px  0px; text-align: left}
+text.lT2{ display: block; font-size: 14px; font-family: Tahoma; font-weight: Normal; padding:  0px  5px  0px  5px; margin:  0px  0px  0px  0px; text-align: left}
+text.lT3{ display: block; font-size: 16px; font-family: Tahoma; font-weight: Normal; padding:  0px  5px  0px  5px; margin:  0px  0px  0px  0px; text-align: left}
+text.lT4{ display: block; font-size: 18px; font-family: Tahoma; font-weight: Normal; padding:  0px  5px  0px  5px; margin:  0px  0px  0px  0px; text-align: left}
+text.lT5{ display: block; font-size: 20px; font-family: Tahoma; font-weight: Normal; padding:  0px  5px  0px  5px; margin:  0px  0px  0px  0px; text-align: left}
+text.lT6{ display: block; font-size: 22px; font-family: Tahoma; font-weight: normal; padding:  0px  5px  0px  5px; margin:  0px  0px  0px  0px; text-align: left}
+
+/*	Type: Block     <text>: aT Series, Bold  */
+text.aT00{ display: block; padding:  0px; margin:  0px; font-size:  2px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT01{ display: block; padding:  0px; margin:  0px; font-size:  4px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT02{ display: block; padding:  0px; margin:  0px; font-size:  6px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT03{ display: block; padding:  0px; margin:  0px; font-size:  8px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT04{ display: block; padding:  0px; margin:  0px; font-size: 10px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT05{ display: block; padding:  0px; margin:  0px; font-size: 12px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT06{ display: block; padding:  0px; margin:  0px; font-size: 14px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT07{ display: block; padding:  0px; margin:  0px; font-size: 16px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT08{ display: block; padding:  0px; margin:  0px; font-size: 18px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT09{ display: block; padding:  0px; margin:  0px; font-size: 20px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aT10{ display: block; padding:  0px; margin:  0px; font-size: 22px; text-align: left; font-weight: bold; font-family: Tahoma; }
+
+
+text.aZ00{ display: block; padding:  0px; margin:  5px  0px; font-size:  2px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ01{ display: block; padding:  0px; margin:  5px  0px; font-size:  4px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ02{ display: block; padding:  0px; margin:  5px  0px; font-size:  6px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ03{ display: block; padding:  0px; margin:  5px  0px; font-size:  8px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ04{ display: block; padding:  0px; margin:  5px  0px; font-size: 10px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ05{ display: block; padding:  0px; margin:  5px  0px; font-size: 12px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ06{ display: block; padding:  0px; margin:  5px  0px; font-size: 14px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ07{ display: block; padding:  0px; margin:  5px  0px; font-size: 16px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ08{ display: block; padding:  0px; margin:  5px  0px; font-size: 18px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ09{ display: block; padding:  0px; margin:  5px  0px; font-size: 20px; text-align: left; font-weight: bold; font-family: Tahoma; }
+text.aZ10{ display: block; padding:  0px; margin:  5px  0px; font-size: 22px; text-align: left; font-weight: bold; font-family: Tahoma; }
+
+/*	Type: Block	<text>: Centerised Control: Tahoma (Normal-Gapless) */
+text.gA0{ display: block; font-size:  2px; font-family: Tahoma; font-weight: normal; padding:  0px  0px  0px  0px; margin:  0px  0px  0px  0px; text-align: center}
+text.gA1{ display: block; font-size:  4px; font-family: Tahoma; font-weight: normal; padding:  0px  0px  0px  0px; margin:  0px  0px  0px  0px; text-align: center}
+text.gA2{ display: block; font-size:  6px; font-family: Tahoma; font-weight: normal; padding:  0px  0px  0px  0px; margin:  0px  0px  0px  0px; text-align: center}
+text.gA3{ display: block; font-size:  8px; font-family: Tahoma; font-weight: normal; padding:  0px  0px  0px  0px; margin:  0px  0px  0px  0px; text-align: center}
+text.gA4{ display: block; font-size: 10px; font-family: Tahoma; font-weight: normal; padding:  0px  0px  0px  0px; margin:  0px  0px  0px  0px; text-align: center}
+text.gA5{ display: block; font-size: 12px; font-family: Tahoma; font-weight: normal; padding:  0px  0px  0px  0px; margin:  0px  0px  0px  0px; text-align: center}
+text.gA6{ display: block; font-size: 14px; font-family: Tahoma; font-weight: normal; padding:  0px  0px  0px  0px; margin:  0px  0px  0px  0px; text-align: center}
+
+/*	Type: Block		<text> Centerised Control: Tahoma (Normal)*/
+text.cT0{ display: block; font-size: 10px; font-family: Tahoma; font-weight: Normal; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cT1{ display: block; font-size: 12px; font-family: Tahoma; font-weight: Normal; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cT2{ display: block; font-size: 14px; font-family: Tahoma; font-weight: Normal; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cT3{ display: block; font-size: 16px; font-family: Tahoma; font-weight: Normal; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cT4{ display: block; font-size: 18px; font-family: Tahoma; font-weight: Normal; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cT3{ display: block; font-size: 20px; font-family: Tahoma; font-weight: Normal; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+
+/*	Type: Block 	<text> Centerised Control: Tahoma (Bold - Gapless) */
+text.aX0{ display: block; font-size: 10px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+text.aX1{ display: block; font-size: 12px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+text.aX2{ display: block; font-size: 14px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+text.aX3{ display: block; font-size: 16px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+text.aX4{ display: block; font-size: 18px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+text.aX5{ display: block; font-size: 20px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+text.aX6{ display: block; font-size: 22px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+text.aX7{ display: block; font-size: 24px; font-family: Tahoma; font-weight: Bold; padding:  0px  0px  0px  0px; margin: 0px; text-align: center}
+
+/*	Type: Block		<text> Centerised Control: Tahoma (Bold)*/
+text.cc0{ display: block; font-size: 10px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc1{ display: block; font-size: 12px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc2{ display: block; font-size: 14px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc3{ display: block; font-size: 16px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc4{ display: block; font-size: 18px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc5{ display: block; font-size: 20px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc6{ display: block; font-size: 22px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc7{ display: block; font-size: 24px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+text.cc8{ display: block; font-size: 26px; font-family: Tahoma; font-weight: Bold; padding:  5px  5px  5px  5px; margin: auto auto auto auto; text-align: center}
+
+/*	Type: Block		<Image> Default Standard Image: sX Series (Zero Management) */
+img.sXn0{ display: block; width:  12px; height:  12px; padding: 0px; margin: 0px; object-fit: scale-down; }
+img.sXn1{ display: block; width:  24px; height:  24px; padding: 0px; margin: 0px; object-fit: scale-down; }
+img.sXn2{ display: block; width:  36px; height:  36px; padding: 0px; margin: 0px; object-fit: scale-down; }
+img.sXn3{ display: block; width:  48px; height:  48px; padding: 0px; margin: 0px; object-fit: scale-down; }
+img.sXn4{ display: block; width:  60px; height:  60px; padding: 0px; margin: 0px; object-fit: scale-down; }
+img.sXn5{ display: block; width:  72px; height:  72px; padding: 0px; margin: 0px; object-fit: scale-down; }
+
+/*	Type: Block 	<Image> Default Standard Image: nX Rectangle Series (Top-Bottom Management) > */
+img.nXc0{ display: block; width:  16px; height:  9px; padding: 0px; margin: 0px auto; object-fit: scale-down; }
+img.nXc1{ display: block; width:  32px; height: 18px; padding: 0px; margin: 0px auto; object-fit: scale-down; }
+img.nXc2{ display: block; width:  48px; height: 27px; padding: 0px; margin: 0px auto; object-fit: scale-down; }
+img.nXc3{ display: block; width:  64px; height: 36px; padding: 0px; margin: 0px auto; object-fit: scale-down; }
+img.nXc4{ display: block; width:  80px; height: 45px; padding: 0px; margin: 0px auto; object-fit: scale-down; }
+img.nXc5{ display: block; width:  96px; height: 61px; padding: 0px; margin: 0px auto; object-fit: scale-down; }
+img.nXc6{ display: block; width: 112px; height: 70px; padding: 0px; margin: 0px auto; object-fit: scale-down; }
+
+
+/*	<Default Actionable Setting: bX Series> */
+nav.bX0{ display: block; padding: 4px; background-color: FloralWhite; border-radius: 10px; }
+nav.bX1{ display: none;  padding: 4px; background-color: FloralWhite; border-radius: 10px; }
+nav.bX2{ display: block; padding: 4px; background-color: LightSkyBlue; border-radius: 10px; }
+nav.bX3{ display: none;  padding: 4px; background-color: LightSkyBlue; border-radius: 10px; }
+
+/*	< Default Standard Heading: nX Series >	*/
+h2.nX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h3.nX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h4.nX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h5.nX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h6.nX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+
+/*	< Default Standard Heading: nXa Series >	*/
+h2.nXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h3.nXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h4.nXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h5.nXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h6.nXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+
+/*	< Default Standard Heading: nXb Series >	*/
+h2.nXb{ display: block; margin: 10px  0px 10px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h3.nXb{ display: block; margin: 10px  0px 10px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h4.nXb{ display: block; margin: 10px  0px 10px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h5.nXb{ display: block; margin: 10px  0px 10px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h6.nXb{ display: block; margin: 10px  0px 10px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+
+/*	< Default Standard Heading: aX Series >	*/
+h2.aX{ display: block; margin: 10px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h3.aX{ display: block; margin: 10px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h4.aX{ display: block; margin: 10px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h5.aX{ display: block; margin: 10px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+h6.aX{ display: block; margin: 10px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word;	}
+
+/*	< Default Standard Heading: cX Series >	*/
+h2.cX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h3.cX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h4.cX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h5.cX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h6.cX{ display: block; margin:  0px  0px  0px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+
+/*	< Default Standard Heading: cX Series >	*/
+h2.cXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h3.cXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h4.cXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h5.cXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+h6.cXa{ display: block; margin:  5px  0px  5px  0px; padding:  0px  0px  0px  0px; word-wrap: break-word; text-align: center; }
+
+/*	< Default Link Control: nX Series >	*/
+a.nX0{ font-size:  6px; text-decoration: none; }
+a.nX1{ font-size:  8px; text-decoration: none; }
+a.nX2{ font-size: 10px; text-decoration: none; }
+a.nX3{ font-size: 12px; text-decoration: none; }
+a.nX4{ font-size: 14px; text-decoration: none; }
+
+/*	Type: Block <a>: bX Series >	*/
+a.bX0{ display: block; margin: 4px 0px 4px 0px; font-size:  6px; text-decoration: none; }
+a.bX1{ display: block; margin: 4px 0px 4px 0px; font-size:  8px; text-decoration: none; }
+a.bX2{ display: block; margin: 4px 0px 4px 0px; font-size: 10px; text-decoration: none; }
+a.bX3{ display: block; margin: 4px 0px 4px 0px; font-size: 12px; text-decoration: none; }
+a.bX4{ display: block; margin: 4px 0px 4px 0px; font-size: 14px; text-decoration: none; }
+
+/* Type: Block <Paragraph>: Heading*/
+p.nH0{ display: block; margin: 4px 0px 0px 0px; padding: 0px; font-size:  8px; word-wrap: break-word; }
+p.nH1{ display: block; margin: 4px 0px 0px 0px; padding: 0px; font-size: 10px; word-wrap: break-word; }
+p.nH2{ display: block; margin: 4px 0px 0px 0px; padding: 0px; font-size: 12px; word-wrap: break-word; }
+p.nH3{ display: block; margin: 4px 0px 0px 0px; padding: 0px; font-size: 14px; word-wrap: break-word; }
+
+p.nC0{ display: block; margin: 0px 0px 0px 0px; padding: 0px; font-size:  8px; word-wrap: break-word; }
+p.nC1{ display: block; margin: 0px 0px 0px 0px; padding: 0px; font-size: 10px; word-wrap: break-word; }
+p.nC2{ display: block; margin: 0px 0px 0px 0px; padding: 0px; font-size: 12px; word-wrap: break-word; }
+p.nC3{ display: block; margin: 0px 0px 0px 0px; padding: 0px; font-size: 14px; word-wrap: break-word; }
+
+p.nT0{ display: block; margin: 0px 0px 8px 0px; padding: 0px; font-size:  8px; word-wrap: break-word; }
+p.nT1{ display: block; margin: 0px 0px 8px 0px; padding: 0px; font-size: 10px; word-wrap: break-word; }
+p.nT2{ display: block; margin: 0px 0px 8px 0px; padding: 0px; font-size: 12px; word-wrap: break-word; }
+p.nT3{ display: block; margin: 0px 0px 8px 0px; padding: 0px; font-size: 14px; word-wrap: break-word; }
+
+p.nG0{ display: block; margin: 4px 0px 8px 0px; padding: 0px; font-size:  8px; word-wrap: break-word; }
+p.nG1{ display: block; margin: 4px 0px 8px 0px; padding: 0px; font-size: 10px; word-wrap: break-word; }
+p.nG2{ display: block; margin: 4px 0px 8px 0px; padding: 0px; font-size: 12px; word-wrap: break-word; }
+p.nG3{ display: block; margin: 4px 0px 8px 0px; padding: 0px; font-size: 14px; word-wrap: break-word; }
+
+
+/*	<paragraph>: Content Block ()| Type: Block	*/
+p.cP0{ display: block; margin: auto  2px auto  2px; padding:  2px 2px 2px 2px; font-size:  6px; word-wrap: break-word; text-align: center; text-decoration: none; }
+p.cP1{ display: block; margin: auto  2px auto  2px; padding:  2px 2px 2px 2px; font-size:  8px; word-wrap: break-word; text-align: center; text-decoration: none; }
+p.cP2{ display: block; margin: auto  2px auto  2px; padding:  2px 2px 2px 2px; font-size: 10px; word-wrap: break-word; text-align: center; text-decoration: none; }
+p.cP3{ display: block; margin: auto  2px auto  2px; padding:  2px 2px 2px 2px; font-size: 12px; word-wrap: break-word; text-align: center; text-decoration: none; }
+p.cP4{ display: block; margin: auto  2px auto  2px; padding:  2px 2px 2px 2px; font-size: 14px; word-wrap: break-word; text-align: center; text-decoration: none; }
+p.cP5{ display: block; margin: auto  2px auto  2px; padding:  2px 2px 2px 2px; font-size: 16px; word-wrap: break-word; text-align: center; text-decoration: none; }
+
+/*	<paragraph>: Content Block (Content)| Type: Block	*/
+p.cB0{ display: block; margin: 4px 6px 4px 6px; padding: 0px; font-size:  6px; word-wrap: break-word; }
+p.cB1{ display: block; margin: 4px 6px 4px 6px; padding: 0px; font-size:  8px; word-wrap: break-word; }
+p.cB2{ display: block; margin: 4px 6px 4px 6px; padding: 0px; font-size: 10px; word-wrap: break-word; }
+p.cB3{ display: block; margin: 4px 6px 4px 6px; padding: 0px; font-size: 12px; word-wrap: break-word; }
+p.cB4{ display: block; margin: 4px 6px 4px 6px; padding: 0px; font-size: 14px; word-wrap: break-word; }
+
+/*	<paragraph>: Content Block Type II | Type: Block	*/
+p.cB10{ display: block; margin: 2px 0px 2px 0px; padding: 0px; font-size:  6px; word-wrap: break-word; }
+p.cB11{ display: block; margin: 2px 0px 2px 0px; padding: 0px; font-size:  8px; word-wrap: break-word; }
+p.cB12{ display: block; margin: 2px 0px 2px 0px; padding: 0px; font-size: 10px; word-wrap: break-word; }
+p.cB13{ display: block; margin: 2px 0px 2px 0px; padding: 0px; font-size: 12px; word-wrap: break-word; }
+p.cB14{ display: block; margin: 2px 0px 2px 0px; padding: 0px; font-size: 14px; word-wrap: break-word; }
+
+
+img.sQN0{ display: block; object-fit: scale-down; height:  12px; width:  12px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN1{ display: block; object-fit: scale-down; height:  24px; width:  24px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN2{ display: block; object-fit: scale-down; height:  36px; width:  36px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN3{ display: block; object-fit: scale-down; height:  48px; width:  48px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN4{ display: block; object-fit: scale-down; height:  60px; width:  60px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN5{ display: block; object-fit: scale-down; height:  72px; width:  72px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN6{ display: block; object-fit: scale-down; height:  84px; width:  84px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN7{ display: block; object-fit: scale-down; height:  96px; width:  96px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+img.sQN8{ display: block; object-fit: scale-down; height: 108px; width: 108px; padding:  1px  1px  1px  1px; margin: auto auto auto auto; }
+
+@media only screen and (max-width: 900px) {
+	nav.a000{
+		grid-template-columns: auto auto;
+	}
+	nav.a001{
+		grid-template-columns: auto auto auto auto auto;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	section.a001{
+		grid-template-columns: auto;
+	}
+	
+	article.a002{
+		display: none;
+		margin:0px;
+	}
+	
+	nav.a000{
+		grid-template-columns: auto;
+	}
+	nav.a001{
+		grid-template-columns: auto auto auto;
+	}
+	
+	
+	section.b00{
+		grid-template-columns: 100%;
+	}
+	
+	/*---*/
+	section.nXg0{ grid-template-columns: 100%; }
+	
+	article.mL0{ grid-area: 1 / 1 / span 1 / span 1; }
+	article.mL1{ grid-area: 2 / 1 / span 1 / span 1; }
+	article.mL2{ grid-area: 3 / 1 / span 1 / span 1; }
+	
+	nav.g10a{ grid-template-columns: 25% 25% 25% 25%; }
+	
+	nav.nSf{ display: grid; grid-template-columns:  5%	95%; margin: 0px; }
+	nav.nSc{ display: grid; grid-template-columns:  5%	95%; margin: 0px; }
+	nav.nSb{ display: grid; grid-template-columns:  5%	95%; margin: 0px; }
+}
