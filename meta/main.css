@@ -754,7 +754,8 @@ a.b0a{	/*	Block Series: b?a */
 section.tB0{ display: -webkit-flex; flex-direction: row; width: 100%; position:fixed; background-color: rgb(195,195,195); }
 
 /*	<Article>: Main Section	*/
-section.nXg0{ display: grid; grid-template-columns: 10% 76% 14%; }
+section.nXg0{ display: grid; grid-template-columns: 8% 78% 14%; }
+section.nXg1{ display: grid; grid-template-columns: 70% 30%; }
 
 /*	<Article>: Top Bar Layout	*/
 article.tL0{ display: -webkit-flex; flex-direction: row; margin:  0px auto  0px auto; padding: 0.5px 0.5px 0.5px 0.5px }
